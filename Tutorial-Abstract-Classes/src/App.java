@@ -13,6 +13,9 @@ public class App {
 		Cannot instantiate the Abstract type of Class Machine    
 		Machine machine1 = new Machine();
 		*/
+		
+		camera1.run();
+		car1.run();
 	}
 }
 
