@@ -1,10 +1,18 @@
 
 public class Machine {
 
+	private int id;
 	 
 	
-	public void start(){
-		System.out.println("Machine started ...");
+	public int getId() {
+		return id;
 	}
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+ 
 
 }
