@@ -13,5 +13,14 @@ public abstract class Machine {
 		this.id = id;
 	}
 
+	public abstract void start();
+	public abstract void doSomeStuff();
+	public abstract void stop();
+	
+	public void run(){
+		start();
+		doSomeStuff();
+		stop();
+	}
   
 }
