@@ -8,7 +8,11 @@ public class App {
 		
 		Car car1 = new Car();
 		car1.setId(2);
-		 
+		
+		/*
+		Cannot instantiate the Abstract type of Class Machine    
+		Machine machine1 = new Machine();
+		*/
 	}
 }
 

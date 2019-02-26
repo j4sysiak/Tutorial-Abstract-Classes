@@ -1,5 +1,5 @@
 
-public class Machine {
+public abstract class Machine {
 
 	private int id;
 	 
