@@ -13,6 +13,5 @@ public class Machine {
 		this.id = id;
 	}
 
- 
-
+  
 }
